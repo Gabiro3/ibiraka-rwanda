@@ -9,9 +9,9 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function formatMoney(amount: number) {
-  return new Intl.NumberFormat("en-US", {
+  return new Intl.NumberFormat("rw-RWF", {
     style: "currency",
-    currency: "USD",
+    currency: "RWF",
   }).format(amount);
 }
 
